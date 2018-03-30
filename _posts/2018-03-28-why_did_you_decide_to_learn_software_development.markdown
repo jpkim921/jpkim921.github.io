@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "**Why did you decide to learn software development?**"
-date:       2018-03-29 03:42:30 +0000
+date:       2018-03-28 23:42:30 -0400
 permalink:  why_did_you_decide_to_learn_software_development
 ---
 
@@ -10,7 +10,7 @@ Actually, I had my first taste of coding while I still in college. It was C++ an
 
 Anyways..here I am trying to learn to code and it started because I had to learn basic HTML and CSS for work. It looked complicated but it looked like a lot of the same "things" repeating. "Things" like div, b, a href and so on. And when I changed a simple "thing" almost the entire webpage I was on seemed to have exploded. I remember thinking "wth..... " and for the next couple of hours try to figure out (with the help of w3school) how to change the page I was on to what I wanted.
 
-I still suck at but not hopeless. At least it helped jumpstart me down this path.
+I still suck at it but not hopeless. At least it helped jumpstart me down this path.
 
 
 
