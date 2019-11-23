@@ -6,11 +6,6 @@ permalink:  final_react_-_redux_project_-_pts
 ---
 
  
-*   Incorporate separate front and back ends.
-*   Flexibility of react
-*   Planning & organization
-*   More familiar with Flexbox
- 
 Previously, for the Javascript project, we incorporated Javascript to a Rails apps with all the front and back ends coming from a single source. For this final project, I developed the front and back ends separately and both ends only talked to each other when there was a need for a response from the server api. Aside from the response that ends up in the Redux store, the only bit of code that leads to the server are the urls in the action functions. This particular way of design and the inherent flexibility of react and it’s way of using components, made an impression on me to how adaptive a web app can be.
  
 When starting, I was a little nervous because I couldn’t remember Ruby programming but with a little time and review most of it came back pretty quickly. 
