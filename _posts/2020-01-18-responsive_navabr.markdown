@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Responsive Navbar"
+title:      "Responsive Navabr"
 date:       2020-01-18 21:58:40 -0500
 permalink:  responsive_navabr
 ---
@@ -35,11 +35,11 @@ The first step was to put the HTML elements of the navbar together.
 Nothing complicated here but there are two things to note:
 
 - the menu is initially 'hidden' (remember it's designed for a small screen first)
-- the `onclick` attribute added to the hamburger icon
+- the `onclick` attribute on the hamburger icon
 
-What makes the nav bar responsive is the media query.  Media queries change the CSS allowing the design to adapt and adjust when it hits a breakpoint. My initial thought was the '@media' was going to be confusing.  However, after working with it I realized it was a lot easier than I anticipated. You just write the css for the element you want to change once the breakpoint is met. In this case, the nav links are hidden until a user clicks the icon. That will toggle the display property of the `<div>` holding the nav links from `display: none` to `display: block`. When the screen size is increased to more than 600px, the icon will disappear and the nav links will be appear in the nav bar.
+What makes the nav bar responsive is the media query.  Media queries change the CSS allowing the design to adapt and adjust when it hits a breakpoint. My initial thought was the '@media' was going to be confusing.  However after working with it I realized it was a lot easier than I anticipated. You just write the css for the element you want to change once the breakpoint is met. In this case, the nav links are hidden until a user clicks the icon. That will toggle the display property of the `<div>` holding the nav links from `display: none` to `display: block`. When the screen size is increased to more than 600px, the icon will disappear and the nav links will appear in the nav bar.
 
-Aside from the media query, the other important part in making this happen was javascript. Javascipt allows the `toggleMenu()` function to trigger the `onclick` event.
+Aside from the media query, the other important part in making this happen is javascript. Javascipt allows the `toggleMenu()` function to trigger the `onclick` event.
 
 
 ```javascript
@@ -61,9 +61,9 @@ const toggleMenu = () => {
 When a user clicks on the icon, javascript will grab `<div>` with the id of `nav-links` and check to see if it has the `'hidden'` class. If it does, `.remove('hidden')` or else add (`+='hidden'`).
 
 
-This project is actually my second attempt. In first attempt, instead of using a click event, I tried to toggle the menu by hovering over the icon. Although it worked, there was an issue that if I hid the menu and resized the screen, the menu and icon remained hidden.
+This project is actually my second attempt. In the first attempt, instead of using a click event, I tried to toggle the menu by hovering over the icon. Although it worked, there was an issue that if I hid the menu and resized the screen, the menu and icon remained hidden.
 
-There are a few changes I would make in the future. The first is to redo the hamburger icon. Instead of linking an image, I may just try to create the icon with HTML/CSS. I would also like to try adding a small animation to the menu and have it slide down or pop out from the icon.  This would make it more appealing and excitable for the user. 
+There are a few changes I would like to make in the future. The first is to redo the hamburger icon. Instead of linking an image, I may just try to create the icon with HTML/CSS. I would also like to try adding a small animation to the menu and have it slide down or pop out from the icon.  This would make it more appealing and excitable for the user. 
 
 There are many ways to do this, but hopefully this effort gives insight to those reading this.
 
