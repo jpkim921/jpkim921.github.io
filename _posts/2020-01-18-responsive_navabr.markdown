@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Responsive Navabr"
+title:      "Responsive Navbar"
 date:       2020-01-18 21:58:40 -0500
 permalink:  responsive_navabr
 ---
